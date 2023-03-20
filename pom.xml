@@ -10,9 +10,10 @@
 	<name>discovery-server</name>
 
 	<parent>
-		<groupId>dev.evv</groupId>
-		<artifactId>bookmar</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.0.4</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
@@ -20,10 +21,6 @@
 		<spring-cloud.version>2022.0.1</spring-cloud.version>
 	</properties>
 	<dependencies>
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.cloud</groupId>-->
-<!--			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>-->
-<!--		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
